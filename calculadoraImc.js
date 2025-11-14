@@ -19,7 +19,7 @@ function calcular() {
     }
     if (total > "18.5") {
         let classificação = "Peso normal"
-        document.getElementById("classifação").textContent = classificação
+        document.getElementById("classificação").textContent = classificação
     }
     if (total > "25") {
         let classificação = "Acima do peso"
