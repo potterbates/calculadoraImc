@@ -13,19 +13,19 @@ function calcular() {
         let classificação = "Muito abaixo do peso"
         document.getElementById("classificação").textContent = classificação
     }
-    if (total > "18.4") {
+    if (total > "17") {
         let classificação = "Abaixo do peso"
         document.getElementById("classificação").textContent = classificação
     }
-    if (total > "25") {
+    if (total > "18.5") {
         let classificação = "Peso normal"
         document.getElementById("classifação").textContent = classificação
     }
-    if (total > "30") {
+    if (total > "25") {
         let classificação = "Acima do peso"
         document.getElementById("classificação").textContent = classificação
     }
-    if (total > "35") {
+    if (total > "30") {
         let classificação = "Obesidade grau 1"
         document.getElementById("classificação").textContent = classificação
     }
