@@ -13,4 +13,8 @@ function calcular() {
         let classificação = "Muito abaixo do peso"
         document.getElementById("classificação").textContent = classificação
     }
+    if (total > "18.4") {
+        let classificação = "Abaixo do peso"
+        document.getElementById("classificação").textContent = classificação
+    }
 }
