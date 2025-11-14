@@ -3,7 +3,7 @@ function calcular() {
     const peso = document.getElementById("peso").value
     const altura = document.getElementById("altura").value
     //dados de processamento
-    let calculandoImc = peso * (altura/altura)
+    let calculandoImc = peso / (altura*altura)
     let total = calculandoImc
     //saída
     let resultado = total
