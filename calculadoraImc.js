@@ -17,4 +17,8 @@ function calcular() {
         let classificação = "Abaixo do peso"
         document.getElementById("classificação").textContent = classificação
     }
+    if (total > "25") {
+        let classificação = "Peso normal"
+        document.getElementById("classifação").textContent = classificação
+    }
 }
