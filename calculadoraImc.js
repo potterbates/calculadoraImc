@@ -8,4 +8,9 @@ function calcular() {
     //saída
     let resultado = total
     document.getElementById("resultado").textContent = resultado
+
+    if (total < "16.9") {
+        let classificação = "Muito abaixo do peso"
+        document.getElementById("classificação").textContent = classificação
+    }
 }
