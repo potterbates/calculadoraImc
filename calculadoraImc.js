@@ -25,4 +25,8 @@ function calcular() {
         let classificação = "Acima do peso"
         document.getElementById("classificação").textContent = classificação
     }
+    if (total > "35") {
+        let classificação = "Obesidade grau 1"
+        document.getElementById("classificação").textContent = classificação
+    }
 }
